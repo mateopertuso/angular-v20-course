@@ -1,0 +1,8 @@
+<div>
+  <h1 class="text-3xl font-bold">counter: {{ counter }}</h1>
+  <h2 class="text-3xl font-bold">Counter Signal: {{ counterSignal() }}</h2>
+  <hr />
+  <button (click)="increaseByOne(1)">+1</button>
+  <button (click)="increaseByOne(-1)">-1</button>
+  <button (click)="resetCounter()">Reset</button>
+</div>
